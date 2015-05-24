@@ -14,6 +14,7 @@
 		AC8694501B11DEA200A5483C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC86944F1B11DEA200A5483C /* Images.xcassets */; };
 		AC8694531B11DEA200A5483C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC8694511B11DEA200A5483C /* LaunchScreen.xib */; };
 		AC86945F1B11DEA200A5483C /* SheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86945E1B11DEA200A5483C /* SheduleTests.swift */; };
+		AC8694CB1B120CCB00A5483C /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8694CA1B120CCB00A5483C /* Subject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		AC8694581B11DEA200A5483C /* SheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC86945D1B11DEA200A5483C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC86945E1B11DEA200A5483C /* SheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheduleTests.swift; sourceTree = "<group>"; };
+		AC8694CA1B120CCB00A5483C /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				AC8694481B11DEA200A5483C /* FirstViewController.swift */,
 				AC86944A1B11DEA200A5483C /* SecondViewController.swift */,
 				AC86944C1B11DEA200A5483C /* Main.storyboard */,
+				AC8694CA1B120CCB00A5483C /* Subject.swift */,
 				AC86944F1B11DEA200A5483C /* Images.xcassets */,
 				AC8694511B11DEA200A5483C /* LaunchScreen.xib */,
 				AC8694441B11DEA200A5483C /* Supporting Files */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8694CB1B120CCB00A5483C /* Subject.swift in Sources */,
 				AC86944B1B11DEA200A5483C /* SecondViewController.swift in Sources */,
 				AC8694471B11DEA200A5483C /* AppDelegate.swift in Sources */,
 				AC8694491B11DEA200A5483C /* FirstViewController.swift in Sources */,
