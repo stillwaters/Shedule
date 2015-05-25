@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E6C11D51B124DB0007AB091 /* вми.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E6C11D41B124DB0007AB091 /* вми.jpg */; };
 		AC8694471B11DEA200A5483C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8694461B11DEA200A5483C /* AppDelegate.swift */; };
 		AC8694491B11DEA200A5483C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8694481B11DEA200A5483C /* FirstViewController.swift */; };
 		AC86944B1B11DEA200A5483C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86944A1B11DEA200A5483C /* SecondViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E6C11D41B124DB0007AB091 /* вми.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "вми.jpg"; path = "../вми.jpg"; sourceTree = "<group>"; };
 		AC8694411B11DEA200A5483C /* Shedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8694451B11DEA200A5483C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC8694461B11DEA200A5483C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				AC86944C1B11DEA200A5483C /* Main.storyboard */,
 				AC8694CA1B120CCB00A5483C /* Subject.swift */,
 				AC86944F1B11DEA200A5483C /* Images.xcassets */,
+				3E6C11D41B124DB0007AB091 /* вми.jpg */,
 				AC8694511B11DEA200A5483C /* LaunchScreen.xib */,
 				AC8694441B11DEA200A5483C /* Supporting Files */,
 			);
@@ -167,6 +170,7 @@
 				TargetAttributes = {
 					AC8694401B11DEA200A5483C = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = JZ7M7KW263;
 					};
 					AC8694571B11DEA200A5483C = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -198,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E6C11D51B124DB0007AB091 /* вми.jpg in Resources */,
 				AC86944E1B11DEA200A5483C /* Main.storyboard in Resources */,
 				AC8694531B11DEA200A5483C /* LaunchScreen.xib in Resources */,
 				AC8694501B11DEA200A5483C /* Images.xcassets in Resources */,
@@ -349,8 +354,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Shedule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -359,8 +366,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Shedule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -417,6 +427,7 @@
 				AC8694641B11DEA200A5483C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC8694651B11DEA200A5483C /* Build configuration list for PBXNativeTarget "SheduleTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +436,7 @@
 				AC8694671B11DEA200A5483C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
