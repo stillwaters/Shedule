@@ -89,8 +89,8 @@
 				AC86944C1B11DEA200A5483C /* Main.storyboard */,
 				AC8694CA1B120CCB00A5483C /* Subject.swift */,
 				AC86944F1B11DEA200A5483C /* Images.xcassets */,
-				3E6C11D41B124DB0007AB091 /* вми.jpg */,
 				AC8694511B11DEA200A5483C /* LaunchScreen.xib */,
+				3E6C11D41B124DB0007AB091 /* вми.jpg */,
 				AC8694441B11DEA200A5483C /* Supporting Files */,
 			);
 			path = Shedule;
